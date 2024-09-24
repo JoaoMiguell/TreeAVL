@@ -123,7 +123,7 @@ static struct node* node_balance(struct node* node) {
     if(node_balance_factor(node->right) > 0) {
       node->right = node_rotate_right(node->right);
     }
-    new_node = node_rotate_left(node)k
+    new_node = node_rotate_left(node);
   }
 
   return new_node;
